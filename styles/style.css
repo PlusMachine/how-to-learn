@@ -243,7 +243,6 @@
   color: white;
 }
 
-
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -255,12 +254,6 @@
 .footer {
   background: #1f1f1f;
   min-height: 350px;
-}
-
-.footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -286,7 +279,9 @@
 }
 
 .footer__column_content_copyright {
-  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__column_content_info {
