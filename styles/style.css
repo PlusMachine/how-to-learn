@@ -102,7 +102,6 @@
 }
 
 .video__iframes {
-  margin-top: 50px;
   transform: translate(0, 50px);
 }
 
@@ -198,6 +197,13 @@
 .khan__buy-link:hover {
   opacity: 0.5;
   transition: 0.7s ease-in-out;
+}
+
+.khan__book-pic{
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .header__link {
